@@ -1,0 +1,140 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;}
+
+main, article, aside, section, div, header, nav, footer {box-sizing: border-box;}
+
+#cabecera nav { background-color: #27467c;
+                margin: 0;}
+
+.navbar-brand logo {margin: 0;}
+
+.navbar-light .navbar-nav .nav-link {color: white ; 
+                                    font-size: 17px;}
+
+.navbar-light .navbar-nav .active>.nav-link {color: rgb(126, 128, 128);}
+
+.item {color: white;}
+
+.baner {text-align: center;}
+
+.baner img { margin-bottom: -90px; }
+
+h2 { text-align: center; 
+    font-size: 30px;
+    font-weight: 700; 
+    letter-spacing: 8px;}
+
+.pa { text-align: center;
+    font-size: 19px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;}
+
+.click h5 {font-size: 19;
+    padding: 20px;
+    font-weight: 600;}
+
+.click {  text-align: center;}
+
+.btn-primary {background-color: #349980;
+                border-color: #349980;}
+
+.btn-primary:hover {background-color:#27467c; 
+                    border-color: #27467c;}
+
+
+.card-img {width: 280px;}
+
+.info h2 { padding-top: 15px; }
+
+.proyecto h2 { padding-top: 90px; 
+                text-align: center;}
+
+.card  h5 { margin-top: 265px;
+            font-weight: 700;
+            color: white;
+           font-size: 24px;
+            text-align: left;}
+
+.card {padding: 0; 
+         border: white;} 
+
+div.a {text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 120px;
+            padding: 50px 0px;}
+
+div.b {text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;} 
+
+.contac { padding-top: 90px;}
+
+.baner2 {text-align: center;
+        margin-top: 80px;
+        margin-bottom: 30px;}
+
+.contac { margin-bottom: 60px;}
+
+.contac h2 { margin-bottom: 45px;}
+
+.container0 { background-color: #349980;
+            margin: 0px 230px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            color: white; 
+            border: #349980 14px solid;}
+
+.itemmb-3 { margin: 12px;}
+
+#formGroupExampleInput3 {padding-bottom: 150px;}
+
+
+footer { background-color: #27467c;
+        color: white;
+        display: flex;
+        flex-direction: row;} 
+
+.imagen  {margin-left: 80px;
+            margin-right: 60px;
+            margin-top: 50px;
+            margin-bottom: 50px;}
+
+.redes , .metodo {margin-right: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;}
+
+
+.copy {text-align: right;
+        font-size: 13px;
+        margin-left: 100px;
+        margin-right: 80px;
+        margin-top: 115px;
+        margin-bottom: 50px;}
+
+h6 { margin-bottom: 10px;
+        letter-spacing: 3px;}
+
+.items {display: row;
+            width: 33.33%;
+            color: rgb(255, 255, 255);
+            font-size: 1.7em;}
+
+.insta , .phone , .tik {padding-right: 20px;}
+
+.insta:hover , .phone:hover , .tik:hover {color: #349980;} 
+
+.paypal {padding-right: 15px;}
+
+.paypal:hover , .visa:hover {color: #349980;}
+
+
+
